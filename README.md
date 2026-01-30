@@ -4,7 +4,7 @@ This project implements an OpenAI-powered AI Agent inspired by T-Mobile’s Inte
 
 It demonstrates how LLM-based agents can improve customer support and sales workflows through intent routing and API-grounded responses.
 
----
+
 
 ## Features
 
@@ -13,7 +13,7 @@ It demonstrates how LLM-based agents can improve customer support and sales work
 - Customer profile grounding via API-style tool integration  
 - Designed for extension into multi-agent + voice workflows  
 
----
+
 
 ##  Architecture
 
@@ -23,17 +23,26 @@ It demonstrates how LLM-based agents can improve customer support and sales work
 4. LLM Agent Execution (`agent.py`)  
 5. Grounded Response Returned  
 
----
+
+
 
 ## Run the Demo
 
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+
 python demo.py
 
-### Environment Setup
 
-Set your OpenAI API key before running:
-
-```bash
 export OPENAI_API_KEY="your_key_here"
+
+uvicorn app:app --reload
+
+curl -X POST "http://127.0.0.1:8000/chat?query=Why is my bill high?"
+
+
+Commit message:
+
+
