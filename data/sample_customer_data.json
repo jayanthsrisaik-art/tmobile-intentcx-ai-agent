@@ -1,0 +1,8 @@
+{
+  "123": {
+    "name": "John",
+    "current_plan": "Magenta Max",
+    "recent_issue": "billing increase",
+    "eligible_upgrade": true
+  }
+}
