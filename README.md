@@ -30,3 +30,10 @@ It demonstrates how LLM-based agents can improve customer support and sales work
 ```bash
 pip install -r requirements.txt
 python demo.py
+
+### Environment Setup
+
+Set your OpenAI API key before running:
+
+```bash
+export OPENAI_API_KEY="your_key_here"
