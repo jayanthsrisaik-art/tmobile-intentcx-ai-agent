@@ -2,3 +2,6 @@ openai
 python-dotenv
 pydantic
 requests
+
+fastapi
+uvicorn
