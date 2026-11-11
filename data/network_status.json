@@ -1,0 +1,5 @@
+{
+  "10001": {"status": "degraded", "issue": "Tower maintenance affecting voice calls in Manhattan (Midtown)", "eta": "2026-11-12 06:00 local"},
+  "98004": {"status": "normal", "issue": null, "eta": null},
+  "60601": {"status": "normal", "issue": null, "eta": null}
+}

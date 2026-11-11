@@ -1,7 +1,7 @@
-openai
+openai>=1.40
 python-dotenv
-pydantic
+pydantic>=2
 requests
 
-fastapi
+fastapi>=0.110
 uvicorn

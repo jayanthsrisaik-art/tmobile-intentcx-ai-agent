@@ -1,0 +1,15 @@
+{
+  "_note": "Illustrative sample catalog for demo purposes only - not real pricing.",
+  "plans": [
+    {"name": "Essentials", "price_per_line": 60, "premium_data_gb": 50, "hotspot_gb": 0, "streaming_perks": [], "international": "Basic texting", "best_for": "budget-conscious single-line users"},
+    {"name": "Magenta", "price_per_line": 70, "premium_data_gb": 100, "hotspot_gb": 5, "streaming_perks": ["Netflix Basic"], "international": "Texting + 2G data in 200+ countries", "best_for": "families wanting value with some perks"},
+    {"name": "Magenta Max", "price_per_line": 85, "premium_data_gb": -1, "hotspot_gb": 40, "streaming_perks": ["Netflix Standard", "Apple TV+"], "international": "Texting + 5GB high-speed data in 200+ countries", "best_for": "heavy data users, travelers, and streamers"}
+  ],
+  "devices": [
+    {"name": "iPhone 16 Pro", "brand": "Apple", "price": 999, "trade_in_credit_max": 800, "five_g": true, "highlights": "Pro camera system, A18 Pro chip"},
+    {"name": "iPhone 16", "brand": "Apple", "price": 799, "trade_in_credit_max": 600, "five_g": true, "highlights": "Great all-rounder, long battery life"},
+    {"name": "Galaxy S25 Ultra", "brand": "Samsung", "price": 1299, "trade_in_credit_max": 800, "five_g": true, "highlights": "S Pen, 200MP camera, Galaxy AI"},
+    {"name": "Galaxy A35", "brand": "Samsung", "price": 399, "trade_in_credit_max": 200, "five_g": true, "highlights": "Budget-friendly 5G with solid battery"},
+    {"name": "Pixel 9", "brand": "Google", "price": 799, "trade_in_credit_max": 600, "five_g": true, "highlights": "Best-in-class AI photo editing, 7 years of updates"}
+  ]
+}
