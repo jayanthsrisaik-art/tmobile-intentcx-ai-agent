@@ -3,6 +3,54 @@
     "name": "John",
     "current_plan": "Magenta Max",
     "recent_issue": "billing increase",
-    "eligible_upgrade": true
+    "eligible_upgrade": true,
+    "account_status": "active",
+    "lines": 2,
+    "device": "iPhone 13",
+    "zip_code": "98004",
+    "tenure_months": 38,
+    "autopay": true,
+    "monthly_bill": 185.0,
+    "billing_history": [
+      {"month": "2026-08", "amount": 160.0, "notes": "Standard charges"},
+      {"month": "2026-09", "amount": 160.0, "notes": "Standard charges"},
+      {"month": "2026-10", "amount": 185.0, "notes": "Promo credit ($15) expired; international roaming pass ($10)"}
+    ]
+  },
+  "456": {
+    "name": "Priya",
+    "current_plan": "Essentials",
+    "recent_issue": "dropped calls at home",
+    "eligible_upgrade": false,
+    "account_status": "active",
+    "lines": 1,
+    "device": "Galaxy S22",
+    "zip_code": "10001",
+    "tenure_months": 9,
+    "autopay": false,
+    "monthly_bill": 65.0,
+    "billing_history": [
+      {"month": "2026-08", "amount": 65.0, "notes": "Standard charges"},
+      {"month": "2026-09", "amount": 70.0, "notes": "Late payment fee ($5)"},
+      {"month": "2026-10", "amount": 65.0, "notes": "Standard charges"}
+    ]
+  },
+  "789": {
+    "name": "Marcus",
+    "current_plan": "Magenta",
+    "recent_issue": null,
+    "eligible_upgrade": true,
+    "account_status": "active",
+    "lines": 4,
+    "device": "Pixel 7",
+    "zip_code": "60601",
+    "tenure_months": 72,
+    "autopay": true,
+    "monthly_bill": 240.0,
+    "billing_history": [
+      {"month": "2026-08", "amount": 240.0, "notes": "Standard charges"},
+      {"month": "2026-09", "amount": 240.0, "notes": "Standard charges"},
+      {"month": "2026-10", "amount": 240.0, "notes": "Standard charges"}
+    ]
   }
 }
